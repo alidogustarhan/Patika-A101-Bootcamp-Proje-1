@@ -1,0 +1,29 @@
+{
+  "name": "clean-blog",
+  "version": "1.0.0",
+  "description": "\"# CLEAN-BLOG\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alidogustarhan/CLEAN-BLOG.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alidogustarhan/CLEAN-BLOG/issues"
+  },
+  "homepage": "https://github.com/alidogustarhan/CLEAN-BLOG#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prettier": "2.5.1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6"
+  }
+}
